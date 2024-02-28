@@ -1,6 +1,6 @@
 export default class Character {
   constructor(name, type) {
-    let types = [ 'Bowerman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie' ]
+    const types = [ 'Bowerman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie' ]
 
     if ( typeof name === 'string' && name.length >= 2 && name.length <= 10){
       this.name = name
